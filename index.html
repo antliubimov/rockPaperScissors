@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="background">
+        <div class="wrap">
+            <h1 class="head">Rock Paper Scissors</h1>
+            <div class="score">
+                <div class="player">
+                    <h2>Player</h2>
+                    <div class="count count--player">0</div>
+                </div>
+                <div class="computer">
+                    <h2>Computer</h2>
+                    <div class="count count--computer">0</div>
+                </div>
+            </div>
+            <h2 class="choose">Your choose</h2>
+
+            <div class="choose-img disabled">
+                <img data-id="0" class="" src="./img/rock.png" alt="Rock">
+                <img data-id="1" class="" src="./img/paper.png" alt="Paper">
+                <img data-id="2" class="" src="./img/scissors.png" alt="Scissors">
+            </div>
+
+            <div class="result center"></div>
+            <button class="btn">Play</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
